@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand|Special+Elite" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Hangman-Game</title>
+  </head>
+  <body>
+
+    <div class="container" id="header">
+
+      <div class="row">
+
+          <div class="col-xs-7" id="headerpic">
+            <img src ="assets/images/images copy.jpg" alt= "Sushi">
+          </div>
+        </div>
+
+
+    <div class="row" id=title>
+      <div class="col-xs-5">
+        <h1>Hangman</h1>
+      </div>
+    </div>
+
+  </div>
+
+    <div class="container-fluid text-center text-uppercase" id="main">
+
+      <div class="d-flex justify-content-center row">
+
+
+        <div class="col-xs-4 col-xs-offset-2" id="picture">
+          <img src="assets/images/download.jpg" alt="sushi">
+        </div>
+
+
+      <div class="col-xs-4" id="info">
+            <p> Press any key to get started! </p>
+            <p id="wins"> Wins: 0 </p>
+            <p id="losses"> Losses: 0 </p>
+            <p> Current Word </p>
+            <p id= "currentWord"> </p>
+            <p> Number of Guesses Remaining</p>
+            <p id = "guessesRemaining"> 15 </p>
+            <p> Letters Already Guessed </p>
+            <p id= "answersGuessed"> </p>
+    </div>
+
+  </div>
+    </div>
+  </div>
+  <script src="assets/javascript/game.js"> </script>
+  </body>
+</html>

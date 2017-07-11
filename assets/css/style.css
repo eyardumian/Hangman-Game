@@ -1,0 +1,39 @@
+body {
+  background-color: #FFA07A;
+}
+
+#headerpic {
+  margin-top: 20px;
+  margin-left: 130px;
+}
+
+
+#picture {
+  border-style: solid;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 233.31px;
+  height: 398px;
+}
+
+#title {
+  float: right;
+}
+
+h1 {
+  font-size: 800%;
+  color: Red;
+  font-family: 'Special Elite', cursive;
+  margin-right: 90px;
+
+}
+
+#info {
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  font-size: 18px;
+  font-weight: bold;
+  width: 233.31px;
+  height: 398px;
+}
